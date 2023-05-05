@@ -1,0 +1,23 @@
+Results for the extraLargeArray  
+insert 1.1231669 s
+append 2.7604 ms
+
+Results for the LargeArray  
+insert 8.9269 ms
+append 508.8 μs
+
+results for the MediumArray  
+insert 191.1 μs
+append 145.6 μs
+
+Results for the SmallArray  
+insert 48.3 μs
+append 100.4 μs
+
+Results for the TinyArray  
+insert 37.2 μs
+append 97.6 μs
+
+After inserting each array into the functions I have noticed a bit of a pattern going on.
+It looks like for the larger Arrays, the append function is faster than the insert function.
+However, for the smaller function the insert function is faster. 
